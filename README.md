@@ -12,7 +12,7 @@ Node.js
 Puppeteer
 Installation
 Clone the repository to your local machine:
-git clone https://github.com/yourusername/similarweb-data-scraper.git
+git clone https://github.com/ShreenidhiHD/similarweb-data-scraper.git
 
 Change to the repository directory:
 cd similarweb-data-scraper
