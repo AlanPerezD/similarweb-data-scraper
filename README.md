@@ -21,7 +21,7 @@ Install dependencies:
 npm install
 
 Usage
-Create a text file named websites.txt in the project directory and list the websites you want to scrape data for, with one website per line:
+Create a text file named urls.txt in the project directory and list the websites you want to scrape data for, with one website per line:
 example.com
 anotherexample.com
 
@@ -35,4 +35,4 @@ const writeScrapedDataToFile = require('./writeScrapedDataToFile');
 Run the script:
 node index.js
 
-The script will read the websites from the websites.txt file, scrape their data from SimilarWeb, and save the results to a JSON or CSV file.
+The script will read the websites from the urls.txt file, scrape their data from SimilarWeb, and save the results to a JSON or CSV file.
