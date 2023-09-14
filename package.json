@@ -1,7 +1,7 @@
 {
   "name": "similarweb-data-scraper",
   "version": "1.0.0",
-  "description": "A web application that helps users manage their grocery lists, track expiration dates, and suggest recipes based on available ingredients.",
+  "description": "Script to scrap Similarweb data",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
