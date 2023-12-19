@@ -7,7 +7,4 @@ RUN install-packages gnupg \
     && sh -c 'echo "deb [arch=amd64 signed-by=/usr/share/keyrings/googlechrome-linux-keyring.gpg] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list' \
     && install-packages google-chrome-stable fonts-ipafont-gothic fonts-wqy-zenhei fonts-thai-tlwg fonts-khmeros fonts-kacst fonts-freefont-ttf libxss1
 
-RUN mkdir -p /home/gitpod/.cache/puppeteer && \
-    chown -R gitpod:gitpod /home/gitpod/.cache
-
 USER gitpod
